@@ -32,7 +32,7 @@ html, body {
 
 }
 
-h1 {
+.recipe-title {
     color: rgb(247, 0, 164);
     background-color: white;
     font-size: 38px;  
