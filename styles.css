@@ -1,7 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.page {
+    background-color: rgb(145, 194, 236);
+    height: 1000px;
+    padding: 50px 0px;
+    margin: 0px
+
+}
+
+.title-bar {
+    background-color: rgba(124, 124, 124, 0.5);
+    margin: 0px -20px;
+}
+
 h1 {
     color: rgb(247, 0, 164);
-    background-color: rgba(124, 124, 124, 0.5);
-    font-size: 32px;
+    background-color: white;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin: 20px 100px;
+    width: 160px;
+    height: 100px;
+    text-align: center;
 
 }
 
@@ -14,12 +41,46 @@ h3 {
     font-size:20px;
 }
 
+.cookie-home {
+    width: 350px;
+    margin: 0px 30px;
+}
+
+.cookie-button {
+    margin-left: -385px; 
+}
+
+.potato-home {
+    width: 350px;
+}
+
+.potato-button {
+    margin-left: -355px;
+    
+}
+
+.baked-home {
+    width: 350px;
+}
+
+.baked-button {
+    margin-left: -355px;
+    
+}
+
+button {
+    padding: 5px;
+    width: 350px;
+    border: 2px solid black;
+    margin-right: 30px;
+}
+
 img {
     height: auto;
     width: 500px;
 }
 
-* {font-family: "Georgia", serif;
+* {font-family: "Times New Roman", sans-serif;
     font-size: 18px;
    
 }
