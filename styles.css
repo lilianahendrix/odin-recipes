@@ -20,7 +20,7 @@ html, body {
     margin: 0px -20px;
 }
 
-h1 {
+.page-title {
     color: rgb(247, 0, 164);
     background-color: white;
     font-size: 38px;
@@ -30,6 +30,12 @@ h1 {
     height: 100px;
     text-align: center;
 
+}
+
+h1 {
+    color: rgb(247, 0, 164);
+    background-color: white;
+    font-size: 38px;  
 }
 
 h2 {
