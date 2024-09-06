@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 18px;
   }
 
 body {
@@ -20,7 +22,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1;
-    margin: 16px 8px;
+    margin: 16px 20px;
     gap: 16px;
     } 
 
@@ -61,7 +63,7 @@ body {
 
 h2 {
     color: rgb(39, 116, 231);
-    background-color: rgba(175, 174, 174, 0.418);
+    background-color: white;
     font-size:22px;
 }
 h3 {
@@ -69,22 +71,16 @@ h3 {
 }
 
 
-.cookie-home {
-    width: 350px;
+.home-photo {
+    max-width: 350px;
 }
 
-.potato-home {
-    width: 350px;
-}
-
-.baked-home {
-    width: 350px;
-}
-
-button {
+.home-button {
     padding: 5px;
-    width: 350px;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
 }
 
 img {
@@ -92,10 +88,6 @@ img {
     width: 500px;
 }
 
-* {font-family: "Times New Roman", sans-serif;
-    font-size: 18px;
-   
-}
 .footer{
     height: 36px;
     background-color: rgb(231, 172, 207);
@@ -109,7 +101,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 0;
 }
 
 
